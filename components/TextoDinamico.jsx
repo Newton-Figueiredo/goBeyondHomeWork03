@@ -8,7 +8,7 @@ export default function TextoDinamico(props) {
     const resposta = props.txtID
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/hello')
+        fetch('./api/hello')
         .then(resp => resp.json())
         .then(useLista)
 

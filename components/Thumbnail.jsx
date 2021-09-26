@@ -9,7 +9,7 @@ export default function Thumbnail(props) {
     const resposta = props.imgID
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/hello')
+        fetch('./api/hello')
         .then(resp => resp.json())
         .then(useLista)
 
