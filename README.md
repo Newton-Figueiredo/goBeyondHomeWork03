@@ -126,16 +126,19 @@ Já que para isso os parâmetros como texto e imagens de qualquer aplicação co
 Com isso em foco tentei consumir minha própria **API** e em outros casos eu consumi algumas informações como links que estavam em **arrays** com o objetivo de criar os componentes dinamicamente e acelerar o meu processo de desenvolvimento.
 
 ![API](public/f01.png)
+
 Foto01: API usada no projeto
 
 ___
 
 ![Array](public/f02.png)
+
 Foto02: Consumindo arrays no projeto com o intuito de criar components dinamicamente.
 
 ___
 
 ![Array](public/f03.png)
+
 Foto03: Consumindo os componentes.
 ___
 
@@ -162,5 +165,17 @@ Foto05: Codigo CSS usado na Thumbnail
 
 ![CSS](public/gif03.gif)
 
-Foto04: 
+## Considerações Finais
+
+Tirando as eventuais dificuldades, o projeto foi executado da melhor forma possível dentro do prazo, para quem está aprendendo, colocar a mão na massa, é a melhor forma de aprendizado. 
+Essa atividade me proporcionou uma experiência prática que eu não possuía. Foi muito divertido pesquisar centenas de maneiras de solucionar um problema e vê-lo corrigido na centésima primeira tentativa, além de descobrir coisas que nunca tinha visto, tags, libs, tecnologias. Alem trocar experiências com a garotada.
+ 
+
+ ![CSS](public/f06.png)
+
+Foto06: Performance do Projeto
+
+
+
+# Muissimo Obrigado! 
 
