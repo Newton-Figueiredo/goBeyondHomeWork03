@@ -1,0 +1,290 @@
+@media (max-width: 600px) {
+
+
+
+
+     /* ---------------- NAV ---------------- */
+
+     .navList {
+        background-color: black;
+        width: 100%;
+    }
+
+    nav.navContent {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .nav-listContent {
+        display: none;
+    }
+
+    .iconMobile {
+        display: flex;
+    }
+
+    .iconMobile {
+        color: white;
+        padding-right: 20px;
+    }
+
+    .logo img {
+        width: 100px;
+        height: 50px;
+        
+    }
+
+    .logo {
+        padding-left: 20px;
+    }
+
+    /* ----------------footer---------------- */
+
+    footer.footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footerContent1 {
+        margin-top: 15px;
+        width: 100%;
+        /* height: 220px; */
+        display: -moz-box;
+        display: flex;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        align-content: center;
+        -moz-box-pack: space-evenly;
+        justify-content: space-evenly;
+        -moz-box-align: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .footerSubContent {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .FooterMargin {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    p.linkFooter {
+        margin: 11px;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .footerContent2 {
+        margin-top: 25px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4f4;
+        /* height: 220px; */
+        width: 100%;
+        flex-wrap: nowrap;
+        height: auto;
+    }
+
+    .textoContent {
+        /* height: 130px; */
+        width: 80%;
+        height: auto;
+        display: -moz-box;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    p.texto.Paragrafo {
+        font-size: 12px;
+        width: 90%;
+        text-align: left;
+        margin: 0px;
+    }
+
+
+
+
+    /*------------Main Content --------------------  */
+    
+    .MainContent {
+        display: -moz-box;
+        display: flex;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-wrap: nowrap;
+        -moz-box-pack: start;
+        justify-content: center;
+        width: 100%;
+        background-color: black;
+        flex-direction: column;
+        align-content: center;
+        height: auto;
+    }
+
+    .MainContentMargin {
+        display: -moz-box;
+        display: flex;
+        flex-wrap: wrap;
+        -moz-box-pack: center;
+        justify-content: center;
+        -moz-box-align: start;
+        align-items: flex-start;
+    }
+
+    .MainTextBlock {
+        display: -moz-box;
+        display: flex;
+        width: 80%;
+        background-color: black;
+        height: auto;
+        -moz-box-orient: vertical;
+        -moz-box-direction: normal;
+        flex-direction: column;
+        align-content: center;
+        -moz-box-pack: start;
+        justify-content: flex-start;
+        -moz-box-align: center;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    .MainContentText {
+        width: 80%;
+    }
+
+    p.MainContent {
+        font-size: 35px;
+        line-height: 1;
+        height: 170px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .MainContentButton {
+        width: 80%;
+        display: -moz-box;
+        display: flex;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: normal;
+        flex-direction: row;
+        -moz-box-pack: start;
+        justify-content: flex-start;
+        -moz-box-align: center;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    button.MainContentButton {
+        /* margin-left: 2px; */
+        /* margin-right: 2px; */
+        border: none;
+        background-color: white;
+        border-radius: 28px;
+        width: 160px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+
+    p#btext {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-weight: bold;
+        margin-right: 5px;
+    }
+
+    .fotoContent {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .fotoContent img {
+        border-radius: 10px;
+        width: 100%;
+        height: auto;
+    }
+    .thumbnailsContent {
+        display: -moz-box;
+        display: flex;
+        -moz-box-orient: horizontal;
+        -moz-box-direction: normal;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        -moz-box-pack: space-evenly;
+        justify-content: space-around;
+        -moz-box-align: center;
+        align-items: center;
+        width: 95%;
+        /* height: 85px; */
+        background-color: black;
+        position: static;
+        bottom: 0px;
+        right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .thumbnailContent {
+        display: -moz-box;
+        display: flex;
+        -moz-box-align: center;
+        align-items: center;
+        -moz-box-pack: center;
+        justify-content: space-around;
+        width: 100%;
+        height: auto;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .thumbnailContent:hover {
+        border: solid 3px;
+        border-color: white;
+        border-radius: 4px;
+    }
+
+    .thumbnailsContent img {
+        border-radius: 0px;
+        width: 70px;
+        height: 65px;
+
+    }
+}
+
+/*  --------------------fim do media query------------- */
