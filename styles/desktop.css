@@ -11,21 +11,23 @@ footer.footer {
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: flex-start;
     background-color: #f4f4f4;
-    height: 220px;
+    height: auto;
     width: 65%;
+    padding: 20px 20px;
 }
 
 .footerContent1 {
     width: 35%;
-    height: 220px;
+    height: auto;
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
+    padding: 20px 20px;
 }
 
 h1.textoTitulo {
@@ -42,7 +44,7 @@ p.texto.Paragrafo {
 
 
 .textoContent {
-    height: 130px;
+    height: auto;
     width: 20%;
     display: flex;
     flex-direction: column;
@@ -122,14 +124,6 @@ p.direitosContent {
     font-size: 12px;
 }
 
-.fotoContent {
-
-    /*     background-color: black; */
-    height: 55vh;
-
-
-}
-
 .MainContentButton {
     display: flex;
     flex-direction: row;
@@ -154,33 +148,42 @@ button.MainContentButton {
 
 p.MainContent {
     color: white;
+    align-items: flex-start;
+    display: flex;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.3;
 }
 
 .MainTextBlock {
+    display: -moz-box;
     display: flex;
     width: 40%;
     background-color: black;
-    height: 60vh;
+    height: auto;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
     flex-direction: column;
     align-content: center;
+    -moz-box-pack: start;
     justify-content: flex-start;
+    -moz-box-align: center;
     align-items: center;
     flex-wrap: nowrap;
+    padding: 20px 20px;
 }
 
 .thumbnailsContent {
     display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 30%;
-    height: 85px;
-    background-color: black;
-    position: relative;
-    bottom: 85px;
-    right: 540px;
+}
+
+/* .thumbnailsContent {
+
     
 }
 
@@ -197,29 +200,46 @@ p.MainContent {
     width: 120px;
     height: 81px;
 
-}
+}*/
 
 
 
 .thumbnailContent:hover {
     border: solid 3px;
     border-color: white;
+} 
 
-
+.thumbnailContent:focus {
+    border: solid 3px;
+    border-color: white;
 }
 
+.thumbnailContent:active {
+    border: solid 3px;
+    border-color: white;
+} 
+
 .MainContent {
+    display: -moz-box;
     display: flex;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    -moz-box-pack: start;
+    justify-content: center;
     width: 100%;
     background-color: black;
-    height: 600px
+    /* height: 600px; */
+    -moz-box-align: center;
+    align-items: center;
+    padding: 20px 0px;
 }
 
 .MainContentText {
-    width: 80%;
+    width: 100%;
+    padding: 0 20px;
+    min-height: 200px;
 }
 
 .MainContentButton {
@@ -228,6 +248,7 @@ p.MainContent {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    padding: 20px 0;
 }
 
 button.MainContentButton {
@@ -236,12 +257,6 @@ button.MainContentButton {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
-}
-
-p.MainContent {
-    font-size: 60px;
-    height: 261px;
-    line-height: 1;
 }
 
 p#btext {
@@ -253,30 +268,28 @@ p#btext {
 }
 
 .MainContentMargin {
+    display: -moz-box;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    -moz-box-pack: center;
+    justify-content: space-evenly;
+    -moz-box-align: start;
+    align-items: center;
+    width: 100%;
+    align-content: center;
 }
 
 .fotoContent img {
-    width: 55vw;
-    height: 540px;
     border-radius: 10px;
 }
-
-.thumbnailsContent img:hover {
-    border: solid 1px;
-    border-color: white;
+ 
+.flexRowthumbnails {
+    margin: 20px 0px;
 }
 
-.fotoContent {
-    width: 55vw;
-    height: 540px;
-
+.thumbnailContent {
+    padding: 5px 5px 1px 5px;
 }
-
-
 
 
 
@@ -296,8 +309,8 @@ nav.navContent {
     align-content: center;
     align-items: center;
     justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 60px;
 }
 
@@ -307,7 +320,7 @@ nav.navContent {
 
 .nav-listContent {
     display: flex;
-    width: 45%;
+    width: 55%;
     flex-wrap: nowrap;
     flex-direction: row;
     align-content: center;
@@ -350,6 +363,12 @@ li.nav-list a:hover {
 }
 
 .logo img {
-    width: 180px;
-    height: 50px;
+    width: 140px !important;
+}
+
+.flexRow1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
