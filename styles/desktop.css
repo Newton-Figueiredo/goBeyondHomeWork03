@@ -200,18 +200,24 @@ p.MainContent {
     width: 120px;
     height: 81px;
 
-}
+}*/
 
 
 
 .thumbnailContent:hover {
     border: solid 3px;
     border-color: white;
+} 
 
+.thumbnailContent:focus {
+    border: solid 3px;
+    border-color: white;
+}
 
-} */
-
-
+.thumbnailContent:active {
+    border: solid 3px;
+    border-color: white;
+} 
 
 .MainContent {
     display: -moz-box;
@@ -276,19 +282,13 @@ p#btext {
 .fotoContent img {
     border-radius: 10px;
 }
-
-.thumbnailsContent img:hover {
-    border: solid 1px;
-    border-color: white;
-}
-
-
+ 
 .flexRowthumbnails {
     margin: 20px 0px;
 }
 
 .thumbnailContent {
-    padding: 5px;
+    padding: 5px 5px 1px 5px;
 }
 
 

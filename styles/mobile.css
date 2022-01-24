@@ -62,7 +62,7 @@ p.MainContent {
         align-content: center;
         justify-content: space-between;
         align-items: center;
-        padding-top: 0px;
+        padding-top: 8px;
         padding-bottom: 0px;
         padding-left: 0px;
         width: 100%;
@@ -213,24 +213,20 @@ p.MainContent {
     }
 
     .MainTextBlock {
-        display: -moz-box;
         display: flex;
         width: 80%;
         background-color: black;
         height: auto;
-        -moz-box-orient: vertical;
-        -moz-box-direction: normal;
         flex-direction: column;
-        align-content: center;
-        -moz-box-pack: start;
+        align-content: flex-start;
         justify-content: flex-start;
-        -moz-box-align: center;
-        align-items: center;
         flex-wrap: nowrap;
+        padding: 0;
+        align-items: flex-start;
     }
 
     .MainContentText {
-        width: 80%;
+        width: 100%;
     }
 
     p.MainContent {
@@ -253,6 +249,7 @@ p.MainContent {
         -moz-box-align: center;
         align-items: center;
         margin-bottom: 15px;
+        padding-left: 15px;
     }
 
     button.MainContentButton {
@@ -285,39 +282,17 @@ p.MainContent {
         width: 100%;
         height: auto;
     }
-    .thumbnailsContent {
-        display: -moz-box;
-        display: flex;
-        -moz-box-orient: horizontal;
-        -moz-box-direction: normal;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-content: center;
-        -moz-box-pack: space-evenly;
-        justify-content: space-around;
-        -moz-box-align: center;
-        align-items: center;
-        width: 95%;
-        /* height: 85px; */
-        background-color: black;
-        position: static;
-        bottom: 0px;
-        right: 0px;
-        margin-bottom: 10px;
-    }
 
-    .thumbnailContent {
-        display: -moz-box;
+    .thumbnailsContent {
         display: flex;
-        -moz-box-align: center;
-        align-items: center;
-        -moz-box-pack: center;
-        justify-content: space-around;
-        width: 100%;
-        height: auto;
-        align-content: center;
         flex-direction: row;
         flex-wrap: nowrap;
+        align-content: center;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        width: 100%;
+        margin: 0;
     }
 
     .thumbnailContent:hover {
@@ -331,6 +306,10 @@ p.MainContent {
         width: 70px;
         height: 65px;
 
+    }
+
+    .flexRow1 {
+        flex-direction: column;
     }
 }
 
